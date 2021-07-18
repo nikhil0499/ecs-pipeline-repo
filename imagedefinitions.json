@@ -1,0 +1,6 @@
+[
+  {
+    "name": "simple-php-app",
+    "imageUri": "861715670405.dkr.ecr.us-east-2.amazonaws.com/php-ecs-demo:latest"
+  }
+]
