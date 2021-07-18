@@ -1,5 +1,5 @@
 {
-    "family": "console-sample-app-1",
+    "family": "console-sample-app-php",
     "volumes": [
         {
             "name": "my-vol",
