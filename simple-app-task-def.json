@@ -1,5 +1,5 @@
 {
-    "family": "console-sample-app",
+    "family": "console-sample-app-1",
     "volumes": [
         {
             "name": "my-vol",
@@ -12,7 +12,7 @@
             "name": "simple-php-app",
             "image": "861715670405.dkr.ecr.us-east-2.amazonaws.com/php-ecs-demo",
             "cpu": 10,
-            "memory": 500,
+            "memory": 200,
             "portMappings": [
                 {
                     "containerPort": 80,
@@ -36,7 +36,7 @@
             "name": "busybox",
             "image": "busybox",
             "cpu": 10,
-            "memory": 500,
+            "memory": 200,
             "volumesFrom": [
             {
               "sourceContainer": "simple-php-app"
