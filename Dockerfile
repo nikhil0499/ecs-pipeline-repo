@@ -1,4 +1,4 @@
-FROM public.ecr.aws/amazonlinux/amazonlinux:latest
+FROM amazonlinux
 
 # Install dependencies
 RUN yum install -y \
