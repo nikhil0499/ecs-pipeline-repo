@@ -10,7 +10,7 @@
         {
             "environment": [],
             "name": "simple-php-app",
-            "image": "861715670405.dkr.ecr.us-east-2.amazonaws.com/php-ecs-demo",
+            "image": "501885533320.dkr.ecr.us-east-2.amazonaws.com/php-ecs-demo",
             "cpu": 10,
             "memory": 500,
             "portMappings": [
